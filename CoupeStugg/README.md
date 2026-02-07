@@ -15,8 +15,6 @@ SwiftUI companion app for couples: shared anniversary timer, photo backdrop, and
 ## Setup
 1) **Clone** and open `Coupe stuff.xcodeproj`.
 2) **Firebase plist**  
-   - In Firebase console for bundle id `com.camnee.Coupe-stuff`, download `GoogleService-Info.plist`.  
-   - Add it to Xcode, target membership = `Coupe stuff`.
 3) **SPM deps** (if missing)  
    - File → Add Package Dependencies → `https://github.com/firebase/firebase-ios-sdk` (Up to Next Major).  
    - Add to target: `FirebaseFirestore`, `FirebaseFirestoreSwift`, `FirebaseStorage` (optionally Auth/Analytics).
